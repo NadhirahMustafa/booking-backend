@@ -1,5 +1,4 @@
-var express = require('express');        // call express
-// var app = express();                 // define our app using express
+var express = require('express');        
 var mongoose = require('mongoose');
 const Book = require ('./apps/models/booking')
 
