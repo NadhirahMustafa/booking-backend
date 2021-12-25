@@ -2,8 +2,8 @@ var mongoose = require('mongoose');
 
 var BookingSchema   = mongoose.Schema({
 	user: String,
-	booking_date: Date,
-	booking_time: String 
+	date: Date,
+	time: String 
 });
 
         
